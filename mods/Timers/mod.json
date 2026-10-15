@@ -2,7 +2,7 @@
   "id": "Timers",
   "name": "Timers",
   "description": "With lid-timers.dll, crafting, research and facility upgrades take time again. This adds the part shop's time skip (pick a part whose timer is still running to open Uncle Death's time skip for it) and makes the facility menu show an upgrade's countdown, where the time skip is offered too. A skip costs {{cost:label}}. The timers themselves need lid-timers.dll - see the readme.",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "author": "KSFA",
   "category": "Game content",
   "tags": [
@@ -19,6 +19,7 @@
   ],
   "requires": [],
   "conflicts_with": [],
+  "plugin": "lid-timers.dll",
   "requires_check_off": [
     "BrgGame.upk"
   ],

@@ -64,6 +64,11 @@ The timers themselves need `lid-timers.dll` in `Binaries\Win64\lid-plugins`
 (see the [LiD Timers](https://github.com/NicoMullin/LiD-Timers) page). Without
 it nothing has a timer, so this mod never comes into play.
 
+The mod and the plugin are switched together (mod 0.3.2, with LiD DB Editor
+0.12.8 or newer): saving with this mod ticked switches `lid-timers.dll` on,
+and saving with it unticked switches it off, so the timers stop as well.
+Off means renamed to `lid-timers.dll.off`, which the Plugin Loader skips.
+
 ## Installing
 
 1. Switch the game's file check off for `BrgGame.upk` (Tools > Hash Patcher)
@@ -75,6 +80,8 @@ Death Metals, Stew Multi Pull, Instant Drops and Fighter Class Passives.
 
 ## Undo
 
-Untick the mod and save. Picking a running part does nothing again, the
+Untick the mod and save. `lid-timers.dll` is switched off with it (from
+LiD DB Editor 0.12.8), so crafting, research and upgrades are instant again.
+Picking a running part does nothing again, the
 facility menu shows an upgrade as done until you leave and reopen it, and the
 time skip costs Death Metals again.
