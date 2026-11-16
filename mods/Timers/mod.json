@@ -2,7 +2,7 @@
   "id": "Timers",
   "name": "Timers",
   "description": "With lid-timers.dll, crafting, research and facility upgrades take time again. This adds the part shop's time skip (pick a part whose timer is still running to open Uncle Death's time skip for it) and makes the facility menu show an upgrade's countdown, where the time skip is offered too. A skip costs {{cost:label}}. The timers themselves need lid-timers.dll - see the readme.",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "author": "KSFA",
   "category": "Game content",
   "tags": [
@@ -13,9 +13,7 @@
     "time-skip",
     "facilities"
   ],
-  "game_version": [
-    "5.0.5.0.0 - 1.92"
-  ],
+  "game_version": ["5.0.6.0.0 - 1.93"],
   "requires": [],
   "conflicts_with": [],
   "plugin": "lid-timers.dll",
